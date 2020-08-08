@@ -1,7 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_quotes/ui/pages/quote_screen.dart';
-
+import 'package:firebase_messaging/firebase_messaging.dart';
 final DBRef = FirebaseDatabase.instance.reference();
 void main() => runApp(MyApp());
 
